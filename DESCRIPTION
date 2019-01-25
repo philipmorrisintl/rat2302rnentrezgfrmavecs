@@ -1,0 +1,21 @@
+Package: rat2302rnentrezgfrmavecs
+Title: Vectors used by frma for microarrays of type rat2302rnentrezg
+Version: 0.99.7
+Author: Vincenzo Belcastro <vincenzo.belcastro@pmi.com>, Sylvain Gubian
+    <sylvain.gubian@pmi.com>
+Description: This package was created with the help of frmaTools version
+    1.24.0.
+Maintainer: Sylvain Gubian <DL.RSupport@pmi.com>
+Depends:
+    R (>= 3.5.0)
+License: GPL (>= 2)
+biocViews: AnnotationData, AffymetrixChip, rat2302, Rattus_norvegicus, FRMA
+Suggests:
+    BiocStyle,
+    knitr,
+    rmarkdown
+Imports:
+    affy,
+    frma
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
